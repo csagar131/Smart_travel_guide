@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<title>login page</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<div class="center">
+	<h1 id = "clr">USER</h1><h1 id="clr1">LOGIN</h1>
+	<div class="c1">
+		
+	</div>
+	<i class='fas fa-smile' style='font-size:100px;color:#C0C0C0; margin-left: 62px; margin-top: 25px; '></i></br>
+	<form action = "/cgi-bin/dblogin.cgi" method = "GET" >
+		<input class="box" type="text" placeholder="  Username" name="Username" required="required" aria-required="true" autofocus="" aria-invalid="true" /></br>
+		<input class="sox" type="password" placeholder="  Password" name="Password" required /></br>
+		<input class="box lox"type="submit" value="Login" /></br>
+	</form>	
+</div>
+<div class="corner">
+	<h1 id = "clr2">SIGNUP</h1><h1 id="clr3"> HERE</h1></br>
+	</br>
+	<form action="/cgi-bin/newuser.cgi" method="POST">
+		<input style=" width: 150px; border-radius: 5px;" type="text" placeholder="  First Name" name="fname" required/></br>
+		<input style=" width: 150px; border-radius: 5px;" type="text" placeholder="  Last Name" name="lname" required/></br>
+		<input style=" width: 312px; border-radius: 5px;" type="text" placeholder="  Think of a Username" name="uname" required/></br>
+		<input style=" width: 312px; border-radius: 5px;" type="password" placeholder="  New Password" name="passwd" required/></br>
+		<input style=" width: 312px; border-radius: 5px;" type="password" placeholder="  Confirm Password" name="repasswd" required/></br>
+		<h3 style="color: white; margin-top: 30px">GENDER</h3>
+		<input  type="radio" name="gender" value="male" checked placeholder="male"><p style="color: white; display: inline;">Male</p>
+		<input type="radio" name="gender" value="female" ><p style="color: white; display: inline;"> Female </p><br>
+		<input class="cox"type="submit" value="Signup" /></br>
+	</form>	
+</div>
+
+</body>
+</html>

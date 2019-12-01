@@ -27,7 +27,7 @@ time.sleep(3)
 
 # In[31]:
 
-
+print("this is "+your_city)
 #this will print latitude and longitude of current location
 user_city = list(current_location[0]['geometry']['location'].values())
 #print(user_city)
@@ -55,6 +55,7 @@ for place in places_result['results']:
         hospital_loc = list(place['geometry']['location'].values())
         #rating = place['rating']
         name = place['name']
+        print("\n"+name)
         rating_person = place['user_ratings_total']
         vicinity = place['vicinity']
         #print("---->  ",name,"  ",hospital_loc,"  ",rating,"  ",rating_person,"  ",vicinity)

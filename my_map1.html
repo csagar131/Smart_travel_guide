@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.4.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_610e4eebff96442f81afd769384e9ec2 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_610e4eebff96442f81afd769384e9ec2" ></div>
+        
+</body>
+<script>    
+    
+            var map_610e4eebff96442f81afd769384e9ec2 = L.map(
+                "map_610e4eebff96442f81afd769384e9ec2",
+                {
+                    center: [26.9124336, 75.7872709],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_87f24b16866a4491b60a7a9a33d144c2 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+            var marker_03065231067e4d7cbcf5062fae61ce68 = L.marker(
+                [26.8914756, 75.8002477],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_8ddc448c30d74a75b8b53d60852e6cf5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6db84071a8054d2cac307e1f3a1c70f9 = $(`<div id="html_6db84071a8054d2cac307e1f3a1c70f9" style="width: 100.0%; height: 100.0%;">Rating: 4.1   Vicinity: 23, Satya Vihar, Lalkothi, Jaipur</div>`)[0];
+            popup_8ddc448c30d74a75b8b53d60852e6cf5.setContent(html_6db84071a8054d2cac307e1f3a1c70f9);
+        
+
+        marker_03065231067e4d7cbcf5062fae61ce68.bindPopup(popup_8ddc448c30d74a75b8b53d60852e6cf5)
+        ;
+
+        
+    
+    
+            marker_03065231067e4d7cbcf5062fae61ce68.bindTooltip(
+                `<div>
+                     Jain ENT Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1fcdeef451e34f958916e370ffd00634 = L.marker(
+                [26.8923503, 75.8047127],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_bc27e1009d7b431388b1f98a717baf32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03482f0428994c158ce6dc3c357e7305 = $(`<div id="html_03482f0428994c158ce6dc3c357e7305" style="width: 100.0%; height: 100.0%;">Rating: 3.9   Vicinity: Tonk Road, Near SMS Stadium, Lalkothi, Jaipur</div>`)[0];
+            popup_bc27e1009d7b431388b1f98a717baf32.setContent(html_03482f0428994c158ce6dc3c357e7305);
+        
+
+        marker_1fcdeef451e34f958916e370ffd00634.bindPopup(popup_bc27e1009d7b431388b1f98a717baf32)
+        ;
+
+        
+    
+    
+            marker_1fcdeef451e34f958916e370ffd00634.bindTooltip(
+                `<div>
+                     Jaipur Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dda55ca728ba468587b3bf9f225689ec = L.marker(
+                [26.917592, 75.816553],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_c66ab8bd582a44a8b59d49aa078632ec = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7c58fc3aeecc43aeb1381f1406a0e6d7 = $(`<div id="html_7c58fc3aeecc43aeb1381f1406a0e6d7" style="width: 100.0%; height: 100.0%;">Rating: 1   Vicinity: 20, Mangal Vihar, New Atish Market, Jaipur</div>`)[0];
+            popup_c66ab8bd582a44a8b59d49aa078632ec.setContent(html_7c58fc3aeecc43aeb1381f1406a0e6d7);
+        
+
+        marker_dda55ca728ba468587b3bf9f225689ec.bindPopup(popup_c66ab8bd582a44a8b59d49aa078632ec)
+        ;
+
+        
+    
+    
+            marker_dda55ca728ba468587b3bf9f225689ec.bindTooltip(
+                `<div>
+                     Jaipur Hospital Ask4health Care
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c6c0832f85af4419ab7e90d7538c8de4 = L.marker(
+                [26.9090677, 75.82456789999999],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_f2c1010b49b849b7a0dcdb197e3086b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_226178ec2b6d4f719faac3cc60f91772 = $(`<div id="html_226178ec2b6d4f719faac3cc60f91772" style="width: 100.0%; height: 100.0%;">Rating: 4   Vicinity: K4A, FATEHTIBA, Moti Doongri Road, Jaipur</div>`)[0];
+            popup_f2c1010b49b849b7a0dcdb197e3086b7.setContent(html_226178ec2b6d4f719faac3cc60f91772);
+        
+
+        marker_c6c0832f85af4419ab7e90d7538c8de4.bindPopup(popup_f2c1010b49b849b7a0dcdb197e3086b7)
+        ;
+
+        
+    
+    
+            marker_c6c0832f85af4419ab7e90d7538c8de4.bindTooltip(
+                `<div>
+                     OPHTHALMOLOGIST
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_81fa20df36f8496a8730a780a02b1d2d = L.marker(
+                [26.944658, 75.79716479999999],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_8f30ae48f2494524956140cd48742cf7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b0983e8231104d8fad772d82d090d888 = $(`<div id="html_b0983e8231104d8fad772d82d090d888" style="width: 100.0%; height: 100.0%;">Rating: 3.8   Vicinity: Near Main Circle, Shastri Nagar, Jaipur</div>`)[0];
+            popup_8f30ae48f2494524956140cd48742cf7.setContent(html_b0983e8231104d8fad772d82d090d888);
+        
+
+        marker_81fa20df36f8496a8730a780a02b1d2d.bindPopup(popup_8f30ae48f2494524956140cd48742cf7)
+        ;
+
+        
+    
+    
+            marker_81fa20df36f8496a8730a780a02b1d2d.bindTooltip(
+                `<div>
+                     Imperial Hospital & Research Centre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6390dc14ab0c4cd5ac8e2e3de36b55a8 = L.marker(
+                [26.9130368, 75.797124],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_11b9a6e649cb4e8e8a5964277166d98b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_992442ce9d3c43c580f144b87e8c5d3e = $(`<div id="html_992442ce9d3c43c580f144b87e8c5d3e" style="width: 100.0%; height: 100.0%;">Rating: 3.5   Vicinity: 78-79, Dhuleshwar Garden, Sardar Patel Marg, Behind HSBC Bank, C Scheme, Jaipur</div>`)[0];
+            popup_11b9a6e649cb4e8e8a5964277166d98b.setContent(html_992442ce9d3c43c580f144b87e8c5d3e);
+        
+
+        marker_6390dc14ab0c4cd5ac8e2e3de36b55a8.bindPopup(popup_11b9a6e649cb4e8e8a5964277166d98b)
+        ;
+
+        
+    
+    
+            marker_6390dc14ab0c4cd5ac8e2e3de36b55a8.bindTooltip(
+                `<div>
+                     SR Kalla Memorial
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e9942cff2f714518b48ef1df68bf4c86 = L.marker(
+                [26.9244645, 75.78813989999999],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_f32d63b59a924252bc434fe7b8839a88 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7fb63e4701d4600a0c6e277cbee26b0 = $(`<div id="html_d7fb63e4701d4600a0c6e277cbee26b0" style="width: 100.0%; height: 100.0%;">Rating: 3.6   Vicinity: D-9, Kabir Marg, Bani Park, Jaipur</div>`)[0];
+            popup_f32d63b59a924252bc434fe7b8839a88.setContent(html_d7fb63e4701d4600a0c6e277cbee26b0);
+        
+
+        marker_e9942cff2f714518b48ef1df68bf4c86.bindPopup(popup_f32d63b59a924252bc434fe7b8839a88)
+        ;
+
+        
+    
+    
+            marker_e9942cff2f714518b48ef1df68bf4c86.bindTooltip(
+                `<div>
+                     Bani Park Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ebbaca700d1e4c19ab2c7d26cf592e80 = L.marker(
+                [26.9098408, 75.8075891],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_18214d87a8ea4181872fca9898e64b5d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f0e65a90b404013a9e44e0e65831361 = $(`<div id="html_7f0e65a90b404013a9e44e0e65831361" style="width: 100.0%; height: 100.0%;">Rating: 4.8   Vicinity: Nandan Apartment, C-72(B, Sarojini Marg, C Scheme, Jaipur</div>`)[0];
+            popup_18214d87a8ea4181872fca9898e64b5d.setContent(html_7f0e65a90b404013a9e44e0e65831361);
+        
+
+        marker_ebbaca700d1e4c19ab2c7d26cf592e80.bindPopup(popup_18214d87a8ea4181872fca9898e64b5d)
+        ;
+
+        
+    
+    
+            marker_ebbaca700d1e4c19ab2c7d26cf592e80.bindTooltip(
+                `<div>
+                     Smile Carve Dental & Hair Transplant Centre (Cosmetic, TMJ, Emergency Dental & Maxillofacial Clinic)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9748eebdfbc548fa86a7a4dba6897181 = L.marker(
+                [26.8979064, 75.7680146],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_6ab1c4f7a16d47cbbd79e16718268eae = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3a3c699a9bf41489030d61bd875df47 = $(`<div id="html_d3a3c699a9bf41489030d61bd875df47" style="width: 100.0%; height: 100.0%;">Rating: 4.1   Vicinity: A-1, Shyam Nagar, Jaipur</div>`)[0];
+            popup_6ab1c4f7a16d47cbbd79e16718268eae.setContent(html_d3a3c699a9bf41489030d61bd875df47);
+        
+
+        marker_9748eebdfbc548fa86a7a4dba6897181.bindPopup(popup_6ab1c4f7a16d47cbbd79e16718268eae)
+        ;
+
+        
+    
+    
+            marker_9748eebdfbc548fa86a7a4dba6897181.bindTooltip(
+                `<div>
+                     Manu Hospital And Research Center
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3e905773daeb494b853db2b4ba1c4c5e = L.marker(
+                [26.8902472, 75.7993853],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_c041ee05ba5142a9a7d21ee30768660f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_db9ef9f6ff4748c18f5d4a101540654e = $(`<div id="html_db9ef9f6ff4748c18f5d4a101540654e" style="width: 100.0%; height: 100.0%;">Rating: 4   Vicinity: R-5, Satya Vihar, Indra Puri, Vidhayak Nagar, Lalkothi, Jaipur</div>`)[0];
+            popup_c041ee05ba5142a9a7d21ee30768660f.setContent(html_db9ef9f6ff4748c18f5d4a101540654e);
+        
+
+        marker_3e905773daeb494b853db2b4ba1c4c5e.bindPopup(popup_c041ee05ba5142a9a7d21ee30768660f)
+        ;
+
+        
+    
+    
+            marker_3e905773daeb494b853db2b4ba1c4c5e.bindTooltip(
+                `<div>
+                     Aditya Hospital Jaipur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_8152a8f2c9fe4014a32c8b27d0a4a81a = L.marker(
+                [26.928582, 75.804805],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_424e7accfad747c393908fa8bea5d264 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b176c1a2d426434395216f1c5d75b456 = $(`<div id="html_b176c1a2d426434395216f1c5d75b456" style="width: 100.0%; height: 100.0%;">Rating: 3.5   Vicinity: Pareek college Turn,, B/h Janana Hospital, Jaipur</div>`)[0];
+            popup_424e7accfad747c393908fa8bea5d264.setContent(html_b176c1a2d426434395216f1c5d75b456);
+        
+
+        marker_8152a8f2c9fe4014a32c8b27d0a4a81a.bindPopup(popup_424e7accfad747c393908fa8bea5d264)
+        ;
+
+        
+    
+    
+            marker_8152a8f2c9fe4014a32c8b27d0a4a81a.bindTooltip(
+                `<div>
+                     Aanchal Institute of Medical Sciences, aims jaipur
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a74d48981a724b8b8f418c08de41cafc = L.marker(
+                [26.938213, 75.800704],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_aa437c2b8ba94a0c9ec9caaee658fba8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_76bd36b21c1d46d2a5894aef475cd252 = $(`<div id="html_76bd36b21c1d46d2a5894aef475cd252" style="width: 100.0%; height: 100.0%;">Rating: 4.5   Vicinity: A-1, Paani ki Tanki Circle Near Police Station Shastri Nagar, Subhash Nagar, Jaipur</div>`)[0];
+            popup_aa437c2b8ba94a0c9ec9caaee658fba8.setContent(html_76bd36b21c1d46d2a5894aef475cd252);
+        
+
+        marker_a74d48981a724b8b8f418c08de41cafc.bindPopup(popup_aa437c2b8ba94a0c9ec9caaee658fba8)
+        ;
+
+        
+    
+    
+            marker_a74d48981a724b8b8f418c08de41cafc.bindTooltip(
+                `<div>
+                     Goyal Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b176309ef3441bc99323e16c7b68d70 = L.marker(
+                [26.9141205, 75.79844159999999],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_336c8b6c90344020b22809c242dcbd9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0e0d88bf0524465f96e24d8bedde815e = $(`<div id="html_0e0d88bf0524465f96e24d8bedde815e" style="width: 100.0%; height: 100.0%;">Rating: 3   Vicinity: 50, Dhuleshwar Bagh, C Scheme, Ashok Nagar, Jaipur</div>`)[0];
+            popup_336c8b6c90344020b22809c242dcbd9c.setContent(html_0e0d88bf0524465f96e24d8bedde815e);
+        
+
+        marker_1b176309ef3441bc99323e16c7b68d70.bindPopup(popup_336c8b6c90344020b22809c242dcbd9c)
+        ;
+
+        
+    
+    
+            marker_1b176309ef3441bc99323e16c7b68d70.bindTooltip(
+                `<div>
+                     Dhuleshwar Hospital & Laser Skin Centre
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f7f3dd16b9e74cafa8574258efafc2cf = L.marker(
+                [26.9174592, 75.76512740000001],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_36b784d333a244b79d20547c600356b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13058367d00d431393914e695efc45a5 = $(`<div id="html_13058367d00d431393914e695efc45a5" style="width: 100.0%; height: 100.0%;">Rating: 4.4   Vicinity: 12, Khatipura Road, Hatwara, Lakshmi Nagar, Jaipur</div>`)[0];
+            popup_36b784d333a244b79d20547c600356b3.setContent(html_13058367d00d431393914e695efc45a5);
+        
+
+        marker_f7f3dd16b9e74cafa8574258efafc2cf.bindPopup(popup_36b784d333a244b79d20547c600356b3)
+        ;
+
+        
+    
+    
+            marker_f7f3dd16b9e74cafa8574258efafc2cf.bindTooltip(
+                `<div>
+                     ECHS
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be3f9367871f46ec9159039e3e9632de = L.marker(
+                [26.88862899999999, 75.808053],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_937c60bb4bdc47c4bab44fd914676c81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f3b18bff70c43bda46ca69bf9d800ab = $(`<div id="html_7f3b18bff70c43bda46ca69bf9d800ab" style="width: 100.0%; height: 100.0%;">Rating: 4.3   Vicinity: B132-A, Rajendra Marg, Bapu Nagar, Jaipur</div>`)[0];
+            popup_937c60bb4bdc47c4bab44fd914676c81.setContent(html_7f3b18bff70c43bda46ca69bf9d800ab);
+        
+
+        marker_be3f9367871f46ec9159039e3e9632de.bindPopup(popup_937c60bb4bdc47c4bab44fd914676c81)
+        ;
+
+        
+    
+    
+            marker_be3f9367871f46ec9159039e3e9632de.bindTooltip(
+                `<div>
+                     KKS Urology And General Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a6827f31122745e193a384b79b7fbbe2 = L.marker(
+                [26.892403, 75.786069],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_be3a4a6e64be426aa7f65799a493e8f5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b150404affde4f16aed9d35bd71b4b45 = $(`<div id="html_b150404affde4f16aed9d35bd71b4b45" style="width: 100.0%; height: 100.0%;">Rating: 4.8   Vicinity: F-44, A & B, Road, No-12, Kartarpura Road, Industrial Area, Bais Godam, Jaipur</div>`)[0];
+            popup_be3a4a6e64be426aa7f65799a493e8f5.setContent(html_b150404affde4f16aed9d35bd71b4b45);
+        
+
+        marker_a6827f31122745e193a384b79b7fbbe2.bindPopup(popup_be3a4a6e64be426aa7f65799a493e8f5)
+        ;
+
+        
+    
+    
+            marker_a6827f31122745e193a384b79b7fbbe2.bindTooltip(
+                `<div>
+                     Rohilla Industries hospital furniture
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_497bd3a32ee3403fa4b3aef6e987dae3 = L.marker(
+                [26.9012542, 75.77027029999999],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_2e6e35d6157e41e4b09a5e58c40071b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f11066415704421cb45b6fbe578f84b5 = $(`<div id="html_f11066415704421cb45b6fbe578f84b5" style="width: 100.0%; height: 100.0%;">Rating: 3.7   Vicinity: 3, Ajmer Road, Siddharth Colony, Sodala, Jaipur</div>`)[0];
+            popup_2e6e35d6157e41e4b09a5e58c40071b7.setContent(html_f11066415704421cb45b6fbe578f84b5);
+        
+
+        marker_497bd3a32ee3403fa4b3aef6e987dae3.bindPopup(popup_2e6e35d6157e41e4b09a5e58c40071b7)
+        ;
+
+        
+    
+    
+            marker_497bd3a32ee3403fa4b3aef6e987dae3.bindTooltip(
+                `<div>
+                     Sevayatan Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dfbe742de5f94452b082dc07637aa475 = L.marker(
+                [26.91928399999999, 75.79749869999999],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_ecf54c2e516947d691e2227371532755 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_69030e395c6040bea65af1e33f1171ac = $(`<div id="html_69030e395c6040bea65af1e33f1171ac" style="width: 100.0%; height: 100.0%;">Rating: 5   Vicinity: Opp All India Radio, Mirza Ismail Road, Jaipur</div>`)[0];
+            popup_ecf54c2e516947d691e2227371532755.setContent(html_69030e395c6040bea65af1e33f1171ac);
+        
+
+        marker_dfbe742de5f94452b082dc07637aa475.bindPopup(popup_ecf54c2e516947d691e2227371532755)
+        ;
+
+        
+    
+    
+            marker_dfbe742de5f94452b082dc07637aa475.bindTooltip(
+                `<div>
+                     Galundia Clinic- Travelers Panacea
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cef9eb14252d452783b58b882b3a3248 = L.marker(
+                [26.918728, 75.80780000000001],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_2454a05c4ea2435a844b51dcf832155a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8bf25180e5124f6da2cccb1e2107386d = $(`<div id="html_8bf25180e5124f6da2cccb1e2107386d" style="width: 100.0%; height: 100.0%;">Rating: 4.9   Vicinity: 9, Gopinath Marg, Mirza Ismail Road, Panch Batti, Near, New Colony, Jaipur</div>`)[0];
+            popup_2454a05c4ea2435a844b51dcf832155a.setContent(html_8bf25180e5124f6da2cccb1e2107386d);
+        
+
+        marker_cef9eb14252d452783b58b882b3a3248.bindPopup(popup_2454a05c4ea2435a844b51dcf832155a)
+        ;
+
+        
+    
+    
+            marker_cef9eb14252d452783b58b882b3a3248.bindTooltip(
+                `<div>
+                     Jaipur Dental Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f972c11df3384c8cbed22d4f3ef0a701 = L.marker(
+                [26.9320421, 75.7919266],
+                {}
+            ).addTo(map_610e4eebff96442f81afd769384e9ec2);
+        
+    
+        var popup_c8578df487f842f28458210836a4f4c8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdf54307b32f46eb8edc9f2f775d58a7 = $(`<div id="html_bdf54307b32f46eb8edc9f2f775d58a7" style="width: 100.0%; height: 100.0%;">Rating: 4.3   Vicinity: F58, Kali Das Marg, Bani Park, Jaipur</div>`)[0];
+            popup_c8578df487f842f28458210836a4f4c8.setContent(html_bdf54307b32f46eb8edc9f2f775d58a7);
+        
+
+        marker_f972c11df3384c8cbed22d4f3ef0a701.bindPopup(popup_c8578df487f842f28458210836a4f4c8)
+        ;
+
+        
+    
+    
+            marker_f972c11df3384c8cbed22d4f3ef0a701.bindTooltip(
+                `<div>
+                     Sanjeevni Hospital
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
